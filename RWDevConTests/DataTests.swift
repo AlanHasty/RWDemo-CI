@@ -66,5 +66,6 @@ class DataTests: XCTestCase {
   }
   func testFailure() {
     XCTFail("Deliberately added failing Test")
+    XCTFail("Deliberately added failing Test")
   }
 }
